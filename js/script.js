@@ -51,11 +51,6 @@ function checkInputs() {
     const formIsValid = [...formControls].every((formControl) => {
         return formControl.className === "form-control success";
       });
-
-    if(formIsValid) {
-        console.log('Formulário válido.');
-    }
-
 }
 
 function setErrorFor(input, message) {
